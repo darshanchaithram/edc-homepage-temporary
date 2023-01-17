@@ -217,7 +217,7 @@ const Home = (props) => {
               <span className="home-text35">
                 iEDC NSSCE is one of the top most entrepreneurship development
                 cell in the state with a motto of “BE YOUR OWN BOSS”.
-                Established with the objective of creating, fostering and
+                Established in 2014 with the objective of creating, fostering and
                 promoting the spirit of entrepreneurship among the youth of our
                 college, we have 30+ incubated startups till date. We are
                 recognized as an Innovation and Entrepreneurship Development
@@ -250,7 +250,7 @@ const Home = (props) => {
                 <br></br>
               </span>
               <span className="home-text49">
-                <span>+91 7736594345</span>
+                <span>+91 9061974471</span>
                 <br></br>
               </span>
               <span className="home-text52">edc@nssce.ac.in</span>
