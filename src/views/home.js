@@ -133,9 +133,9 @@ const Home = (props) => {
                     className="home-image1"
                   />
                   <span className="home-text16">
-                    <span>Ideate</span>
+                    <span>IDEATE</span>
                     <br></br>
-                    <span>Innovate</span>
+                    <span>INNOVATE</span>
                     <br></br>
                     <span>INVENT</span>
                     <br></br>
@@ -265,6 +265,7 @@ const Home = (props) => {
               <div className="home-container10">
                 <span className="home-text57">IIC</span>
                 <span className="home-text58">TinkerHub</span>
+                <span className="home-text58">TechHub</span>
               </div>
             </div>
           </footer>
