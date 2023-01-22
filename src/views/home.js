@@ -1,7 +1,9 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 import { Helmet } from 'react-helmet'
 
+import GalleryCard3 from '../components/gallery-card3'
 import './home.css'
 
 const Home = (props) => {
@@ -17,19 +19,29 @@ const Home = (props) => {
             <div className="home-container01"></div>
             <div className="home-middle">
               <div className="home-left">
-                <span className="navbar-link">ABOUT</span>
-                <span className="navbar-link">STARTUPS</span>
+                <a href="#About" className="home-text navbar-link">
+                  ABOUT
+                </a>
+                <Link to="/startups" className="home-text01 navbar-link">
+                  STARTUPS
+                </Link>
                 <span className="navbar-link">OUR TEAM</span>
               </div>
-              <img
-                alt="image"
-                src="/playground_assets/edc%20logo%5B2%5D-200h.png"
-                className="home-image navbar-logo-title"
-              />
+              <a href="#Landing" className="home-link">
+                <img
+                  alt="image"
+                  src="/playground_assets/edc%20logo%5B2%5D-200h.png"
+                  className="home-image navbar-logo-title"
+                />
+              </a>
               <div className="home-right">
-                <span className="navbar-link">EVENTS</span>
+                <a href="#Events" className="home-text03 navbar-link">
+                  EVENTS
+                </a>
                 <span className="navbar-link">SUBSCRIBE</span>
-                <span className="navbar-link">CONTACT</span>
+                <a href="#Footer" className="home-text05 navbar-link">
+                  CONTACT
+                </a>
               </div>
             </div>
             <div className="home-icons"></div>
@@ -42,22 +54,28 @@ const Home = (props) => {
           <div data-role="MobileMenu" className="home-mobile-menu">
             <div className="home-nav">
               <div className="home-container02">
-                <span className="home-logo-center">
+                <Link to="/" className="home-logo-center">
                   <span>iEDC NSSCE</span>
                   <br></br>
-                </span>
+                </Link>
                 <div
                   data-role="CloseMobileMenu"
                   className="home-close-mobile-menu"
                 >
-                  <svg viewBox="0 0 1024 1024" className="home-icon02">
-                    <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
-                  </svg>
+                  <Link to="/" className="home-navlink">
+                    <svg viewBox="0 0 1024 1024" className="home-icon02">
+                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                    </svg>
+                  </Link>
                 </div>
               </div>
               <div className="home-middle1">
-                <span className="home-text08">ABOUT</span>
-                <span className="home-text09">STARTUPS</span>
+                <Link to="/" className="home-text08">
+                  ABOUT
+                </Link>
+                <Link to="/startups" className="home-text09">
+                  STARTUPS
+                </Link>
                 <span className="home-text10">
                   <span>OUR TEAM</span>
                   <br></br>
@@ -71,7 +89,7 @@ const Home = (props) => {
                   href="https://www.linkedin.com/company/edc-nssce"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link"
+                  className="home-link1"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -84,7 +102,7 @@ const Home = (props) => {
                   href="https://instagram.com/iedcnssce"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link1"
+                  className="home-link2"
                 >
                   <svg
                     viewBox="0 0 877.7142857142857 1024"
@@ -97,7 +115,7 @@ const Home = (props) => {
                   href="https://www.facebook.com/edc.nssce/"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link2"
+                  className="home-link3"
                 >
                   <svg
                     viewBox="0 0 602.2582857142856 1024"
@@ -110,7 +128,7 @@ const Home = (props) => {
                   href="https://www.youtube.com/@iedcnssce5376"
                   target="_blank"
                   rel="noreferrer noopener"
-                  className="home-link3"
+                  className="home-link4"
                 >
                   <svg viewBox="0 0 1024 1024" className="home-icon10">
                     <path d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"></path>
@@ -122,7 +140,7 @@ const Home = (props) => {
         </header>
       </div>
       <div className="home-main">
-        <div className="home-hero section-container">
+        <div id="Landing" className="home-hero section-container">
           <div className="home-max-width max-width-container">
             <div className="home-hero1">
               <div className="home-container03">
@@ -133,9 +151,9 @@ const Home = (props) => {
                     className="home-image1"
                   />
                   <span className="home-text16">
-                    <span>IDEATE</span>
+                    <span>Ideate</span>
                     <br></br>
-                    <span>INNOVATE</span>
+                    <span>Innovate</span>
                     <br></br>
                     <span>INVENT</span>
                     <br></br>
@@ -152,12 +170,17 @@ const Home = (props) => {
                   </span>
                 </div>
                 <div className="home-btn-group">
-                  <button className="button">
+                  <a
+                    href="https://innovate.startupmission.in/#/register"
+                    target="_blank"
+                    rel="noreferrer noopener"
+                    className="home-button button"
+                  >
                     <span>
                       <span>JOIN US</span>
                       <br></br>
                     </span>
-                  </button>
+                  </a>
                 </div>
               </div>
               <img
@@ -172,7 +195,7 @@ const Home = (props) => {
               href="https://instagram.com/iedcnssce"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link4"
+              className="home-link5"
             >
               <svg viewBox="0 0 877.7142857142857 1024" className="home-icon12">
                 <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
@@ -182,7 +205,7 @@ const Home = (props) => {
               href="https://www.facebook.com/edc.nssce/"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link5"
+              className="home-link6"
             >
               <svg viewBox="0 0 602.2582857142856 1024" className="home-icon14">
                 <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
@@ -192,7 +215,7 @@ const Home = (props) => {
               href="https://www.youtube.com/@iedcnssce5376"
               target="_blank"
               rel="noreferrer noopener"
-              className="home-link6"
+              className="home-link7"
             >
               <svg viewBox="0 0 1024 1024" className="home-icon16">
                 <path d="M1013.8 307.2c0 0-10-70.6-40.8-101.6-39-40.8-82.6-41-102.6-43.4-143.2-10.4-358.2-10.4-358.2-10.4h-0.4c0 0-215 0-358.2 10.4-20 2.4-63.6 2.6-102.6 43.4-30.8 31-40.6 101.6-40.6 101.6s-10.2 82.8-10.2 165.8v77.6c0 82.8 10.2 165.8 10.2 165.8s10 70.6 40.6 101.6c39 40.8 90.2 39.4 113 43.8 82 7.8 348.2 10.2 348.2 10.2s215.2-0.4 358.4-10.6c20-2.4 63.6-2.6 102.6-43.4 30.8-31 40.8-101.6 40.8-101.6s10.2-82.8 10.2-165.8v-77.6c-0.2-82.8-10.4-165.8-10.4-165.8zM406.2 644.8v-287.8l276.6 144.4-276.6 143.4z"></path>
@@ -203,7 +226,7 @@ const Home = (props) => {
             </svg>
           </div>
         </div>
-        <div className="section-container column">
+        <div id="About" className="section-container column">
           <div className="home-banner">
             <div className="home-container05">
               <h3 className="home-text32">
@@ -215,13 +238,24 @@ const Home = (props) => {
           <div className="home-container06 max-width-container">
             <div className="home-container07">
               <span className="home-text35">
-                iEDC NSSCE is one of the top most entrepreneurship development
-                cell in the state with a motto of “BE YOUR OWN BOSS”.
-                Established in 2014 with the objective of creating, fostering and
-                promoting the spirit of entrepreneurship among the youth of our
-                college, we have 30+ incubated startups till date. We are
-                recognized as an Innovation and Entrepreneurship Development
-                Centre by Kerala Startup Mission.
+                <span className="home-text36">
+                  iEDC NSSCE is one of the top most entrepreneurship development
+                  cell in the state with a motto of “BE YOUR OWN BOSS”.
+                  Established in 2014 with the objective of creating, fostering
+                  and promoting the spirit of entrepreneurship among the youth
+                  of our college, we have 30+ incubated startups till date. We
+                  are recognized as an Innovation and Entrepreneurship
+                  Development Centre by Kerala Startup Mission.
+                </span>
+                <br></br>
+                <br></br>
+                <span>
+                  We regularly host workshops, talk sessions, competitions, idea
+                  fests, etc. to inculcate an entrepreneurship culture in our
+                  campus. &quot;TechHub&quot;, our weekly tech-discussions is a
+                  proven catalyst for innovation.
+                </span>
+                <br></br>
               </span>
               <button className="button">
                 <span>
@@ -231,17 +265,130 @@ const Home = (props) => {
               </button>
             </div>
           </div>
+          <div className="home-stats">
+            <div className="home-stat">
+              <h1 className="home-text44">30+</h1>
+              <span className="home-text45">
+                <span>Incubated Startups</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-stat1">
+              <h1 className="home-text48">50+</h1>
+              <span className="home-text49">
+                <span>TechHub Sessions</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-stat2">
+              <h1 className="home-text52">500+</h1>
+              <span className="home-text53">
+                <span>Benefited Students</span>
+                <br></br>
+              </span>
+            </div>
+            <div className="home-stat3">
+              <h1 className="home-text56">
+                <span>24/7</span>
+              </h1>
+              <span className="home-text58">
+                <span>Access for Incubated Startups</span>
+                <br></br>
+              </span>
+            </div>
+          </div>
+        </div>
+        <div id="Events" className="home-activities">
+          <h1 className="home-text61">
+            <span>Latest Activities</span>
+            <br></br>
+          </h1>
+          <span className="home-text64">---</span>
+          <div className="home-container08">
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-12-31%20at%2011.58.51%20pm-1500h.jpeg"
+              rootClassName="rootClassName4"
+              subtitle="Happy New Year to all innovators out there!"
+              title="New Year 2023"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202023-01-01%20at%209.45.33%20pm-1500h.jpeg"
+              rootClassName="rootClassName5"
+              title="Hiring!"
+              subtitle="Call for Department Coordinators"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202023-01-01%20at%209.46.10%20pm-1500h.jpeg"
+              rootClassName="rootClassName1"
+              title="Hiring!"
+              subtitle="Call for content and creative team"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-12-30%20at%2012.11.11%20pm-1500h.jpeg"
+              rootClassName="rootClassName"
+              title="Ideathon"
+              subtitle="Idea pitching event "
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/_mg_0499-1500h.jpg"
+              rootClassName="rootClassName6"
+              title="Tink-Her-Hack"
+              subtitle="A 2 day women only hackathon by IEDC NSSCE and TinkerHub on 17-18 Dec 2022"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-12-20%20at%209.16.59%20pm-1500h.jpeg"
+              rootClassName="rootClassName7"
+              title="TechHub"
+              subtitle="TechHub session: 21st December 2022"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-11-19%20at%2012.28.32%20pm-1500h.jpeg"
+              rootClassName="rootClassName2"
+              title="SDW'22: Learning Stations"
+              subtitle="Skill Development Week 22: 20-26 November 2022"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-11-20%20at%2022.02.10-1500h.jpg"
+              rootClassName="rootClassName9"
+              title="SDW'22"
+              subtitle="25 November 2022"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-11-20%20at%2023.00.10-1500h.jpg"
+              rootClassName="rootClassName3"
+              title="SDW'22"
+              subtitle="23 Nov 2022"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-11-20%20at%2022.31.12-1500h.jpg"
+              rootClassName="rootClassName8"
+              title="SDW'22"
+              subtitle="22 November 2022"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-11-19%20at%2020.32.19-1500h.jpg"
+              rootClassName="rootClassName10"
+              title="SDW'22"
+              subtitle="21 Nov 2022"
+            ></GalleryCard3>
+            <GalleryCard3
+              image_src="/playground_assets/whatsapp%20image%202022-11-18%20at%207.28.44%20am-1500h.jpeg"
+              rootClassName="rootClassName11"
+              title="SDW'22"
+              subtitle="Learning Stations were held at as a pre-event to Skill Development Week 2022"
+            ></GalleryCard3>
+          </div>
         </div>
       </div>
-      <div className="home-footer">
+      <div id="Footer" className="home-footer">
         <div className="max-width-container">
           <footer className="home-footer1">
-            <div className="home-container08">
-              <h3 className="home-text39 Heading-3">
+            <div className="home-container09">
+              <h3 className="home-text65 Heading-3">
                 <span>iEDC NSSCE</span>
                 <br></br>
               </h3>
-              <span className="home-text42">
+              <span className="home-text68">
                 <span>Innovation and Entrepreneurship Development Cell,</span>
                 <br></br>
                 <span>Administrative Block, NSS College of Engineering,</span>
@@ -249,23 +396,26 @@ const Home = (props) => {
                 <span>Palakkad - 678008</span>
                 <br></br>
               </span>
-              <span className="home-text49">
-                <span>+91 9061974471</span>
+              <span className="home-text75">
+                <span>+91 7736594345</span>
                 <br></br>
               </span>
-              <span className="home-text52">edc@nssce.ac.in</span>
+              <span className="home-text78">edc@nssce.ac.in</span>
             </div>
             <div className="home-links-container">
-              <div className="home-container09">
-                <span className="home-text53">Startups</span>
-                <span className="home-text54">Team</span>
-                <span className="home-text55">Activities</span>
-                <span className="home-text56">Facilities</span>
-              </div>
               <div className="home-container10">
-                <span className="home-text57">IIC</span>
-                <span className="home-text58">TinkerHub</span>
-                <span className="home-text58">TechHub</span>
+                <span className="home-text79">Startups</span>
+                <span className="home-text80">Team</span>
+                <span className="home-text81">Activities</span>
+                <span className="home-text82">Facilities</span>
+              </div>
+              <div className="home-container11">
+                <span className="home-text83">IIC</span>
+                <span className="home-text84">TinkerHub</span>
+                <span className="home-text85">
+                  <span>Web Team</span>
+                  <br></br>
+                </span>
               </div>
             </div>
           </footer>
