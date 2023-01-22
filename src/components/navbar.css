@@ -42,7 +42,13 @@
   position: relative;
   align-items: flex-start;
 }
+.navbar-text {
+  text-decoration: none;
+}
 .navbar-text01 {
+  text-decoration: none;
+}
+.navbar-text02 {
   text-decoration: none;
 }
 .navbar-navlink {
@@ -58,6 +64,15 @@
   grid-gap: 45px;
   position: relative;
   align-items: flex-start;
+}
+.navbar-text03 {
+  text-decoration: none;
+}
+.navbar-text04 {
+  text-decoration: none;
+}
+.navbar-text05 {
+  text-decoration: none;
 }
 .navbar-icons {
   border: 2px dashed rgba(120, 120, 120, 0.4);

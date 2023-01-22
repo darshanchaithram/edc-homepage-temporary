@@ -41,8 +41,8 @@ BlogPostCard2.defaultProps = {
   text3: 'Abhinand PK',
   text1: 'Rurally',
   text: '2022',
-  image_src: '/playground_assets/ruraly%20logo%20green-400h.png',
   rootClassName: '',
+  image_src: '/playground_assets/ruraly%20logo%20green-400h.png',
 }
 
 BlogPostCard2.propTypes = {
@@ -53,8 +53,8 @@ BlogPostCard2.propTypes = {
   text3: PropTypes.string,
   text1: PropTypes.string,
   text: PropTypes.string,
-  image_src: PropTypes.string,
   rootClassName: PropTypes.string,
+  image_src: PropTypes.string,
 }
 
 export default BlogPostCard2

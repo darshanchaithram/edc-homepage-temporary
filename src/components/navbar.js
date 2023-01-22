@@ -7,17 +7,21 @@ import './navbar.css'
 
 const Navbar = (props) => {
   return (
-    <div className="navbar-navbar">
+    <div className={`navbar-navbar ${props.rootClassName} `}>
       <header data-role="Header" className="navbar-header max-width-container">
         <div className="navbar-navbar1">
           <div className="navbar-container"></div>
           <div className="navbar-middle">
             <div className="navbar-left">
-              <span className="navbar-link">{props.text}</span>
+              <Link to="/" className="navbar-text navbar-link">
+                {props.text}
+              </Link>
               <Link to="/startups" className="navbar-text01 navbar-link">
                 {props.text1}
               </Link>
-              <span className="navbar-link">{props.text2}</span>
+              <Link to="/our-team" className="navbar-text02 navbar-link">
+                {props.text2}
+              </Link>
             </div>
             <Link to="/" className="navbar-navlink">
               <img
@@ -27,9 +31,15 @@ const Navbar = (props) => {
               />
             </Link>
             <div className="navbar-right">
-              <span className="navbar-link">{props.text3}</span>
-              <span className="navbar-link">{props.text4}</span>
-              <span className="navbar-link">{props.text5}</span>
+              <Link to="/events" className="navbar-text03 navbar-link">
+                {props.text3}
+              </Link>
+              <Link to="/" className="navbar-text04 navbar-link">
+                {props.text4}
+              </Link>
+              <Link to="/contact" className="navbar-text05 navbar-link">
+                {props.text5}
+              </Link>
             </div>
           </div>
           <div className="navbar-icons"></div>
@@ -135,6 +145,7 @@ Navbar.defaultProps = {
   text9: 'TINKERHUB',
   text10: 'CONTACT',
   image_src: '/playground_assets/edc%20logo%5B2%5D-200h.png',
+  rootClassName: '',
   image_alt: 'image',
   text: 'ABOUT',
   text1: 'STARTUPS',
@@ -151,6 +162,7 @@ Navbar.propTypes = {
   text9: PropTypes.string,
   text10: PropTypes.string,
   image_src: PropTypes.string,
+  rootClassName: PropTypes.string,
   image_alt: PropTypes.string,
   text: PropTypes.string,
   text1: PropTypes.string,
