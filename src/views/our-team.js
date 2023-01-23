@@ -178,7 +178,7 @@ const OurTeam = (props) => {
                 image_alt="Nodal Officer"
                 image_src="/playground_assets/whatsapp%20image%202022-09-23%20at%209.35.33%20am-200h.jpeg"
                 rootClassName="rootClassName"
-                className="our-team-component"
+                className="rootClassName1"
               ></FeatureCard1>
             </a>
             <FeatureCard1
@@ -206,7 +206,7 @@ const OurTeam = (props) => {
                 image_alt="CFO"
                 image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
                 rootClassName="rootClassName2"
-                className="our-team-component03"
+                className="rootClassName3"
               ></FeatureCard1>
             </a>
             <FeatureCard1
@@ -215,12 +215,18 @@ const OurTeam = (props) => {
               image_src="/playground_assets/abhirami-200h.jpg"
               rootClassName="rootClassName4"
             ></FeatureCard1>
-            <FeatureCard1
-              Name="Darshan S"
-              Role="Chief Technical Officer"
-              image_src="/playground_assets/darshansq-200h.jpg"
-              rootClassName="rootClassName15"
-            ></FeatureCard1>
+            <a
+              href="https://linkedin.com/in/darshan-chaithram"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <FeatureCard1
+                Name="Darshan S"
+                Role="Chief Technical Officer"
+                image_src="/playground_assets/darshansq-200h.jpg"
+                rootClassName="rootClassName15"
+              ></FeatureCard1>
+            </a>
             <FeatureCard1
               Name="Aswinkrishnan B"
               Role="Chief Marketing Officer"
