@@ -434,6 +434,9 @@
   margin-bottom: var(--dl-space-space-threeunits);
   text-decoration: none;
 }
+.home-navlink1 {
+  text-decoration: none;
+}
 .home-stats {
   width: 100%;
   display: grid;
@@ -527,7 +530,7 @@
   grid-gap: var(--dl-space-space-unit);
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
-.home-navlink1 {
+.home-navlink2 {
   width: 188px;
   display: flex;
   flex-direction: row;

@@ -262,12 +262,12 @@ const Home = (props) => {
                 </span>
                 <br></br>
               </span>
-              <button className="button">
+              <Link to="/contact" className="home-navlink1 button">
                 <span>
                   <span>REGISTER A STARTUP</span>
                   <br></br>
                 </span>
-              </button>
+              </Link>
             </div>
           </div>
           <div className="home-stats">
@@ -360,7 +360,7 @@ const Home = (props) => {
             ></GalleryCard3>
           </div>
         </div>
-        <Link to="/events" className="home-navlink1 button">
+        <Link to="/events" className="home-navlink2 button">
           <span className="home-text62">
             <span>See more activities</span>
             <br></br>
