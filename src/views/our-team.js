@@ -194,9 +194,9 @@ const OurTeam = (props) => {
               rootClassName="rootClassName4"
             ></FeatureCard1>
             <FeatureCard1
-              Name="Abhirami Gopikrishnan"
+              Name="Abirami Gopikrishnan"
               Role="Chief Operations Officer"
-              image_src="/playground_assets/abhirami-200h.jpg"
+              image_src="/playground_assets/abirami-200h.jpg"
               rootClassName="rootClassName4"
             ></FeatureCard1>
             <FeatureCard1
@@ -280,8 +280,20 @@ const OurTeam = (props) => {
             ></FeatureCard1>
             <FeatureCard1
               Name="Ananya Sreeram"
-              Role="TinkerHub Lead"
+              Role="TinkerHub Campus Lead"
               image_src="/playground_assets/20230123_152513~2-200w.jpg"
+              rootClassName="rootClassName17"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="Aravind S"
+              Role="TinkerHub Tech Lead"
+              image_src="/playground_assets/aravind-200h.jpg"
+              rootClassName="rootClassName17"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="Aleena KT"
+              Role="TinkerHub Media Lead"
+              image_src="/playground_assets/aleena-200h.jpg"
               rootClassName="rootClassName17"
             ></FeatureCard1>
             <FeatureCard1
