@@ -44,9 +44,9 @@ const Home = (props) => {
                 <Link to="/subscription" className="home-text04 navbar-link">
                   SUBSCRIBE
                 </Link>
-                <a href="#Footer" className="home-text05 navbar-link">
+                <Link to="/contact" className="home-text05 navbar-link">
                   CONTACT
-                </a>
+                </Link>
               </div>
             </div>
             <div className="home-icons"></div>

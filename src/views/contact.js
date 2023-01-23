@@ -156,12 +156,32 @@ const Contact = (props) => {
         <div className="contact-container3">
           <img
             alt="image"
-            src="/playground_assets/edc%20loader-400h.gif"
+            src="/playground_assets/edc%20loader-1500h.gif"
             className="contact-image1"
           />
+          <span className="contact-text16">
+            <span>
+              To register a startup, send an email to us at edc.nssce.ac.in or
+              call at +91 9061974471. Subject should be mentioned as
+              <span
+                dangerouslySetInnerHTML={{
+                  __html: ' ',
+                }}
+              />
+            </span>
+            <br></br>
+            <span>Startup Incubation Request</span>
+            <br></br>
+            <br></br>
+            <span className="contact-text22">
+              For any other queries, email or call us at the above contact
+              points.
+            </span>
+            <br></br>
+          </span>
         </div>
       </div>
-      <Footer></Footer>
+      <Footer rootClassName="footer-root-class-name9"></Footer>
     </div>
   )
 }
