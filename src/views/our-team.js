@@ -167,20 +167,13 @@ const OurTeam = (props) => {
             <br></br>
           </span>
           <div className="our-team-container3">
-            <a
-              href="https://linkedin.com/in/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FeatureCard1
-                Name="Rohini G"
-                Role="Nodal Officer"
-                image_alt="Nodal Officer"
-                image_src="/playground_assets/whatsapp%20image%202022-09-23%20at%209.35.33%20am-200h.jpeg"
-                rootClassName="rootClassName"
-                className="rootClassName1"
-              ></FeatureCard1>
-            </a>
+          <FeatureCard1
+              Name="Rohini G"
+              Role="Nodal Officer"
+              image_alt="Nodal"
+              image_src="/playground_assets/rohini-200h.jpg"
+              rootClassName="rootClassName1"
+            ></FeatureCard1>
             <FeatureCard1
               Name="Vaisakh T"
               Role="Nodal Officer"
@@ -195,38 +188,26 @@ const OurTeam = (props) => {
               image_src="/playground_assets/aswin-r-nath-200h.jpg"
               rootClassName="rootClassName3"
             ></FeatureCard1>
-            <a
-              href="https://linkedin.com/in/darshan-chaithram"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FeatureCard1
-                Name="Abhinand PK"
-                Role="Chief Finance Officer"
-                image_alt="CFO"
-                image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
-                rootClassName="rootClassName2"
-                className="rootClassName3"
-              ></FeatureCard1>
-            </a>
+            <FeatureCard1
+              Name="Abhinand PK"
+              Role="Chief Finance Officer"
+              image_alt="Nodal"
+              image_src="/playground_assets/abhinand-200h.jpg"
+              rootClassName="rootClassName1"
+            ></FeatureCard1>
             <FeatureCard1
               Name="Abhirami Gopikrishnan"
               Role="Chief Operations Officer"
               image_src="/playground_assets/abhirami-200h.jpg"
               rootClassName="rootClassName4"
             ></FeatureCard1>
-            <a
-              href="https://linkedin.com/in/darshan-chaithram"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <FeatureCard1
-                Name="Darshan S"
-                Role="Chief Technical Officer"
-                image_src="/playground_assets/darshansq-200h.jpg"
-                rootClassName="rootClassName15"
-              ></FeatureCard1>
-            </a>
+            <FeatureCard1
+              Name="Darshan S"
+              Role="Chief Technology Officer"
+              image_alt="Nodal"
+              image_src="/playground_assets/darshansq-200h.jpg"
+              rootClassName="rootClassName1"
+            ></FeatureCard1>
             <FeatureCard1
               Name="Aswinkrishnan B"
               Role="Chief Marketing Officer"
