@@ -272,7 +272,7 @@ const OurTeam = (props) => {
             <FeatureCard1
               Name="Gokul "
               Role="Student Coordinator"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/Gokul-200h.jpg"
               rootClassName="rootClassName8"
             ></FeatureCard1>
             <FeatureCard1
@@ -290,7 +290,7 @@ const OurTeam = (props) => {
             <FeatureCard1
               Name="Abhinav Gopinath"
               Role="Project Head"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/Abhinav-200h.jpg"
               rootClassName="rootClassName18"
             ></FeatureCard1>
             <FeatureCard1
@@ -302,7 +302,7 @@ const OurTeam = (props) => {
             <FeatureCard1
               Name="Chaitanya Liz"
               Role="IIC Lead"
-              image_src="/playground_assets/20230123_152513~2-200w.jpg"
+              image_src="/playground_assets/chaitanya-liz-200h.jpg"
               rootClassName="rootClassName19"
             ></FeatureCard1>
           </div>
