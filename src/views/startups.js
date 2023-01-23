@@ -180,10 +180,11 @@ const Startups = (props) => {
       <div className="startups-blog">
         <BlogPostCard2
           Year="2022"
-          Domain="Rural Tourism"
+          logo="/playground_assets/whatsapp%20image%202023-01-23%20at%2012.49.33%20pm-400h.jpeg"
+          Domain="E-commerce platform for hostelers"
+          Startup_Name="DREAMBEE"
+          rootClassName="blog-post-card2-root-class-name1"
           Founder="Abhinand PK"
-          Startup_Name="RURALLY"
-          rootClassName="blog-post-card2-root-class-name"
         ></BlogPostCard2>
         <BlogPostCard2
           Year="2022"
@@ -194,6 +195,15 @@ const Startups = (props) => {
           rootClassName="blog-post-card2-root-class-name2"
         ></BlogPostCard2>
         <BlogPostCard2
+          Year="2022"
+          Domain="Rural Tourism"
+          Founder="Abhinand PK"
+          Startup_Name="RURALLY"
+          rootClassName="blog-post-card2-root-class-name"
+        ></BlogPostCard2>
+      </div>
+      <div className="startups-blog1">
+        <BlogPostCard2
           Year="2020"
           logo="/playground_assets/gagan%20logo-400h.png"
           Domain="Student Satellite R&amp;D"
@@ -201,21 +211,13 @@ const Startups = (props) => {
           Startup_Name="GAGAN AEROSPACE"
           rootClassName="blog-post-card2-root-class-name12"
         ></BlogPostCard2>
-      </div>
-      <div className="startups-blog1">
         <BlogPostCard2
           Year="2020"
           text2="x"
           Domain="Saas"
           Startup_Name="BITNUT TECHNOLOGIES"
           rootClassName="blog-post-card2-root-class-name13"
-        ></BlogPostCard2>
-        <BlogPostCard2
-          Year="year"
-          logo="/playground_assets/whatsapp%20image%202023-01-23%20at%2012.49.33%20pm-400h.jpeg"
-          Domain="SAAS"
-          Startup_Name="DREAMBEE"
-          rootClassName="blog-post-card2-root-class-name1"
+          logo="/playground_assets/alila%20creations-400h.png"
         ></BlogPostCard2>
         <BlogPostCard2
           logo="/playground_assets/nivata%20infosec-400h.png"
@@ -224,6 +226,7 @@ const Startups = (props) => {
           Founder="Sreekanth Sasi, Ashish Shaji Thomas, Sanjay KS"
           Startup_Name="NIVATA INFOSEC"
           rootClassName="blog-post-card2-root-class-name14"
+          Year="2019"
         ></BlogPostCard2>
       </div>
       <div className="startups-blog2">
