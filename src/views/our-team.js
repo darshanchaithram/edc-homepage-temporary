@@ -218,55 +218,55 @@ const OurTeam = (props) => {
             <FeatureCard1
               Name="Darshan S"
               Role="Chief Technical Officer"
-              image_src="/playground_assets/remini20220611202400649-200h.jpg"
+              image_src="/playground_assets/darshansq-200h.jpg"
               rootClassName="rootClassName15"
             ></FeatureCard1>
             <FeatureCard1
               Name="Aswinkrishnan B"
               Role="Chief Marketing Officer"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/aswin-krishnanb-200h.jpeg"
               rootClassName="rootClassName14"
             ></FeatureCard1>
             <FeatureCard1
               Name="Sivamrutha "
               Role="Chief Creative Officer"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/sivamrutha-200h.jpg"
               rootClassName="rootClassName13"
             ></FeatureCard1>
             <FeatureCard1
               Name="Arun Roy"
               Role="Chief Programme Officer"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/arun-roy-200h.jpg"
               rootClassName="rootClassName12"
             ></FeatureCard1>
             <FeatureCard1
               Name="Akshay M"
               Role="IoT Leaf"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/akshay-200h.jpg"
               rootClassName="rootClassName11"
             ></FeatureCard1>
             <FeatureCard1
               Name="Arun K"
               Role="IoT Lead"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/arunk-200h.png"
               rootClassName="rootClassName10"
             ></FeatureCard1>
             <FeatureCard1
               Name="Parvathy Manoj"
               Role="Content Team Head"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/parvathy-200w.jpeg"
               rootClassName="rootClassName6"
             ></FeatureCard1>
             <FeatureCard1
               Name="Visak Jayan"
               Role="Design Team Head"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/visak-200h.jpeg"
               rootClassName="rootClassName7"
             ></FeatureCard1>
             <FeatureCard1
               Name="Devi Mahesh"
               Role="Student Coordinator"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/devi-200w.jpeg"
               rootClassName="rootClassName9"
             ></FeatureCard1>
             <FeatureCard1
@@ -278,20 +278,32 @@ const OurTeam = (props) => {
             <FeatureCard1
               Name="Vyshakh G"
               Role="Activity Manager"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/vyshakh-g-200w.jpeg"
               rootClassName="rootClassName5"
             ></FeatureCard1>
             <FeatureCard1
-              Name="Abhinav Gopinath"
+              Name="Shithin Prakash"
               Role="Activity Manager"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/shithin-200w.jpeg"
               rootClassName="rootClassName16"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="Abhinav Gopinath"
+              Role="Project Head"
+              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              rootClassName="rootClassName18"
             ></FeatureCard1>
             <FeatureCard1
               Name="Ananya Sreeram"
               Role="TinkerHub Lead"
-              image_src="/playground_assets/whatsapp%20image%202022-07-16%20at%207.01.27%20pm-200h.jpeg"
+              image_src="/playground_assets/20230123_152513~2-200w.jpg"
               rootClassName="rootClassName17"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="Chaitanya Liz"
+              Role="IIC Lead"
+              image_src="/playground_assets/20230123_152513~2-200w.jpg"
+              rootClassName="rootClassName19"
             ></FeatureCard1>
           </div>
         </div>

@@ -29,7 +29,7 @@
   margin-bottom: var(--dl-space-space-twounits);
 }
 .feature-card1-image {
-  width: var(--dl-size-size-large);
+  width: auto;
   height: auto;
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
@@ -37,6 +37,8 @@
 .feature-card1-root-class-name {
   width: auto;
 }
+
+
 
 
 

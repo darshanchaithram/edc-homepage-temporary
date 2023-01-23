@@ -187,11 +187,11 @@ const Startups = (props) => {
         ></BlogPostCard2>
         <BlogPostCard2
           Year="2022"
+          logo="/playground_assets/alila%20creations-400h.png"
           Domain="Biodegradable PCB"
           Founder="founder"
           Startup_Name="SKAVENGE"
           rootClassName="blog-post-card2-root-class-name2"
-          logo="/playground_assets/alila%20creations-400h.png"
         ></BlogPostCard2>
         <BlogPostCard2
           Year="2020"
@@ -212,10 +212,10 @@ const Startups = (props) => {
         ></BlogPostCard2>
         <BlogPostCard2
           Year="year"
+          logo="/playground_assets/whatsapp%20image%202023-01-23%20at%2012.49.33%20pm-400h.jpeg"
           Domain="SAAS"
           Startup_Name="DREAMBEE"
           rootClassName="blog-post-card2-root-class-name1"
-          logo="/playground_assets/alila%20creations-400h.png"
         ></BlogPostCard2>
         <BlogPostCard2
           logo="/playground_assets/nivata%20infosec-400h.png"
