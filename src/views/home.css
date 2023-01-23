@@ -330,9 +330,9 @@
   flex: 1;
   width: 100%;
   position: relative;
-  max-width: 579px;
+  max-width: auto;
   box-sizing: border-box;
-  max-height: 579px;
+  max-height: auto;
   object-fit: cover;
   border-color: transparent;
 }
