@@ -170,14 +170,13 @@ const OurTeam = (props) => {
           <FeatureCard1
               Name="Rohini G"
               Role="Nodal Officer"
-              image_alt="Nodal"
-              image_src="/playground_assets/rohini-200h.jpg"
-              rootClassName="rootClassName1"
+              image_src="/playground_assets/rohini-200w.jpg"
+              rootClassName="rootClassName4"
             ></FeatureCard1>
             <FeatureCard1
               Name="Vaisakh T"
               Role="Nodal Officer"
-              image_alt="Nodal"
+              image_alt="Nodal officer"
               image_src="/playground_assets/vaisakh-200h.jpg"
               rootClassName="rootClassName1"
             ></FeatureCard1>
@@ -189,11 +188,10 @@ const OurTeam = (props) => {
               rootClassName="rootClassName3"
             ></FeatureCard1>
             <FeatureCard1
-              Name="Abhinand PK"
+              Name="Abhnand PK"
               Role="Chief Finance Officer"
-              image_alt="Nodal"
               image_src="/playground_assets/abhinand-200h.jpg"
-              rootClassName="rootClassName1"
+              rootClassName="rootClassName4"
             ></FeatureCard1>
             <FeatureCard1
               Name="Abhirami Gopikrishnan"
@@ -228,7 +226,7 @@ const OurTeam = (props) => {
             ></FeatureCard1>
             <FeatureCard1
               Name="Akshay M"
-              Role="IoT Leaf"
+              Role="IoT Lead"
               image_src="/playground_assets/akshay-200h.jpg"
               rootClassName="rootClassName11"
             ></FeatureCard1>
@@ -263,7 +261,7 @@ const OurTeam = (props) => {
               rootClassName="rootClassName8"
             ></FeatureCard1>
             <FeatureCard1
-              Name="Vyshakh G"
+              Name="Vyshakh G Nair"
               Role="Activity Manager"
               image_src="/playground_assets/vyshakh-g-200w.jpeg"
               rootClassName="rootClassName5"
