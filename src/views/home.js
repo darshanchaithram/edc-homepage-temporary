@@ -272,7 +272,7 @@ const Home = (props) => {
           </div>
           <div className="home-stats">
             <div className="home-stat">
-              <h1 className="home-text41">30+</h1>
+              <h1 className="home-text41">40+</h1>
               <span className="home-text42">
                 <span>Incubated Startups</span>
                 <br></br>

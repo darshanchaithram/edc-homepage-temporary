@@ -259,7 +259,7 @@
   min-height: 80vh;
   align-items: center;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   background-image: linear-gradient(0deg, rgb(255, 255, 255) 1.00%,rgb(223, 231, 221) 60.00%);
 }
 .startups-container3 {
@@ -273,20 +273,72 @@
   padding-top: var(--dl-space-space-fourunits);
 }
 .startups-text21 {
-  color: #000000;
-  align-self: stretch;
+  color: rgb(0, 0, 0);
+  align-self: center;
   margin-top: var(--dl-space-space-unit);
   font-weight: 600;
-  margin-right: var(--dl-space-space-threeunits);
+  margin-right: 0px;
   margin-bottom: var(--dl-space-space-unit);
 }
 .startups-blog {
+  flex: 1;
   width: 100%;
+  height: 1026px;
   display: flex;
   padding: var(--dl-space-space-threeunits);
   max-width: auto;
   align-items: center;
   justify-content: space-between;
+}
+.startups-blog1 {
+  flex: 0;
+  width: 100%;
+  height: 1026px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.startups-blog2 {
+  flex: 0;
+  width: 100%;
+  height: 1026px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.startups-blog3 {
+  flex: 0;
+  width: 100%;
+  height: 1026px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.startups-blog4 {
+  flex: 0;
+  width: 100%;
+  height: 1026px;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  max-width: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.startups-text24 {
+  color: #efc14c;
+  width: auto;
+  font-size: 1.5rem;
+  max-width: auto;
+  align-self: center;
+  font-style: normal;
+  font-weight: 800;
+  margin-bottom: var(--dl-space-space-unit);
 }
 @media(max-width: 991px) {
   .startups-container1 {
@@ -333,6 +385,18 @@
   .startups-blog {
     flex-direction: column;
   }
+  .startups-blog1 {
+    flex-direction: column;
+  }
+  .startups-blog2 {
+    flex-direction: column;
+  }
+  .startups-blog3 {
+    flex-direction: column;
+  }
+  .startups-blog4 {
+    flex-direction: column;
+  }
 }
 @media(max-width: 767px) {
   .startups-burger-menu {
@@ -366,6 +430,22 @@
     padding-right: var(--dl-space-space-twounits);
   }
   .startups-blog {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .startups-blog1 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .startups-blog2 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .startups-blog3 {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .startups-blog4 {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
@@ -447,6 +527,30 @@
     margin-bottom: var(--dl-space-space-unit);
   }
   .startups-blog {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .startups-blog1 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .startups-blog2 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .startups-blog3 {
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-twounits);
+  }
+  .startups-blog4 {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);
     padding-right: var(--dl-space-space-unit);

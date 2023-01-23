@@ -34,7 +34,9 @@
   object-fit: cover;
   border-radius: var(--dl-radius-radius-radius4);
 }
-
+.feature-card1-root-class-name {
+  width: auto;
+}
 
 
 

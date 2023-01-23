@@ -275,6 +275,7 @@
 }
 .our-team-text16 {
   font-size: 3rem;
+  align-self: center;
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .our-team-text19 {
@@ -286,6 +287,7 @@
   width: 100%;
   display: grid;
   grid-gap: var(--dl-space-space-twounits);
+  align-self: stretch;
   align-items: flex-start;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }

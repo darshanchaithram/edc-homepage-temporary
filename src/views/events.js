@@ -227,6 +227,12 @@ const Events = (props) => {
           ></GalleryCard3>
           <GalleryCard3
             title="SDW'22"
+            subtitle="Learning Stations were held at as a pre-event to Skill Development Week 2022"
+            image_src="/playground_assets/whatsapp%20image%202022-11-18%20at%207.28.44%20am-1500h.jpeg"
+            rootClassName="rootClassName31"
+          ></GalleryCard3>
+          <GalleryCard3
+            title="SDW'22"
             subtitle="25 November 2022"
             image_src="/playground_assets/whatsapp%20image%202022-11-20%20at%2022.02.10-1500h.jpg"
             rootClassName="rootClassName27"
@@ -248,12 +254,6 @@ const Events = (props) => {
             subtitle="21 Nov 2022"
             image_src="/playground_assets/whatsapp%20image%202022-11-19%20at%2020.32.19-1500h.jpg"
             rootClassName="rootClassName30"
-          ></GalleryCard3>
-          <GalleryCard3
-            title="SDW'22"
-            subtitle="Learning Stations were held at as a pre-event to Skill Development Week 2022"
-            image_src="/playground_assets/whatsapp%20image%202022-11-18%20at%207.28.44%20am-1500h.jpeg"
-            rootClassName="rootClassName31"
           ></GalleryCard3>
         </div>
       </div>
