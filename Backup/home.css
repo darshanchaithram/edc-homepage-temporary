@@ -327,7 +327,6 @@
   text-decoration: none;
 }
 .home-image2 {
-  flex: 1;
   width: 100%;
   position: relative;
   max-width: 579px;
