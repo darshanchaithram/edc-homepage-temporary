@@ -199,13 +199,15 @@ const OurTeam = (props) => {
               image_src="/playground_assets/abirami-200h.jpg"
               rootClassName="rootClassName4"
             ></FeatureCard1>
-            <FeatureCard1
-              Name="Darshan S"
-              Role="Chief Technology Officer"
-              image_alt="Nodal"
-              image_src="/playground_assets/darshansq-200h.jpg"
-              rootClassName="rootClassName1"
-            ></FeatureCard1>
+            <a href='https://www.darshanchaithram.live' target="_blank" rel="noopener">
+              <FeatureCard1
+                Name="Darshan S"
+                Role="Chief Technology Officer"
+                image_alt="Nodal"
+                image_src="/playground_assets/darshan-200h.jpg"
+                rootClassName="rootClassName1"
+              ></FeatureCard1>
+            </a>
             <FeatureCard1
               Name="Aswinkrishnan B"
               Role="Chief Marketing Officer"
