@@ -298,8 +298,32 @@ const OurTeam = (props) => {
             ></FeatureCard1>
             <FeatureCard1
               Name="Chaitanya Liz"
-              Role="IIC Lead"
+              Role="IIC-Lead"
               image_src="/playground_assets/chaitanya-liz-200h.jpg"
+              rootClassName="rootClassName19"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="R Gopan"
+              Role="IIC-Startups Coordinator"
+              image_src="/playground_assets/gopan-200h.jpg"
+              rootClassName="rootClassName19"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="Musthafa Jalal"
+              Role="IIC-Innovation Coordinator"
+              image_src="/playground_assets/musthafa-200h.jpg"
+              rootClassName="rootClassName19"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="Alok JS"
+              Role="IIC-Social Media Coordinator"
+              image_src="/playground_assets/alok-200h.jpg"
+              rootClassName="rootClassName19"
+            ></FeatureCard1>
+            <FeatureCard1
+              Name="JR Sreevishak"
+              Role="IIC-IPR Coordinator"
+              image_src="/playground_assets/sreevishak-200h.jpg"
               rootClassName="rootClassName19"
             ></FeatureCard1>
           </div>

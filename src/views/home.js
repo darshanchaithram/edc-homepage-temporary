@@ -311,27 +311,27 @@ const Home = (props) => {
           <span className="home-text61">---</span>
           <div className="home-container7">
             <GalleryCard3
-              title="New Year 2023"
-              subtitle="Happy New Year to all innovators out there!"
-              image_src="/playground_assets/whatsapp%20image%202022-12-31%20at%2011.58.51%20pm-1500h.jpeg"
+              title="Hiring Interns"
+              subtitle="visit bit.ly/internship-edcnssce"
+              image_src="/playground_assets/Intern1.jpeg"
               rootClassName="rootClassName4"
             ></GalleryCard3>
             <GalleryCard3
-              title="Hiring!"
-              subtitle="Call for Department Coordinators"
-              image_src="/playground_assets/whatsapp%20image%202023-01-01%20at%209.45.33%20pm-1500h.jpeg"
+              title="Hiring Interns"
+              subtitle="visit bit.ly/internship-edcnssce"
+              image_src="/playground_assets/Intern2.jpeg"
               rootClassName="rootClassName5"
             ></GalleryCard3>
             <GalleryCard3
-              title="Hiring!"
-              subtitle="Call for content and creative team"
-              image_src="/playground_assets/whatsapp%20image%202023-01-01%20at%209.46.10%20pm-1500h.jpeg"
+              title="Hiring Interns"
+              subtitle="visit bit.ly/internship-edcnssce"
+              image_src="/playground_assets/Intern5.jpeg"
               rootClassName="rootClassName1"
             ></GalleryCard3>
             <GalleryCard3
-              title="Ideathon"
-              subtitle="Idea pitching event "
-              image_src="/playground_assets/whatsapp%20image%202022-12-30%20at%2012.11.11%20pm-1500h.jpeg"
+              title="Hiring Interns"
+              subtitle="visit bit.ly/internship-edcnssce"
+              image_src="/playground_assets/Intern7.jpeg"
               rootClassName="rootClassName"
             ></GalleryCard3>
             <GalleryCard3
@@ -353,9 +353,9 @@ const Home = (props) => {
               rootClassName="rootClassName2"
             ></GalleryCard3>
             <GalleryCard3
-              title="SDW'22"
-              subtitle="Learning Stations were held at as a pre-event to Skill Development Week 2022"
-              image_src="/playground_assets/whatsapp%20image%202022-11-18%20at%207.28.44%20am-1500h.jpeg"
+              title="Ideathon"
+              subtitle="In campus idea pitching event"
+              image_src="/playground_assets/whatsapp%20image%202022-12-30%20at%2012.11.11%20pm-1500h.jpeg"
               rootClassName="rootClassName11"
             ></GalleryCard3>
           </div>

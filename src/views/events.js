@@ -163,15 +163,51 @@ const Events = (props) => {
       </div>
       <div id="Events" className="events-activities">
         <h1 className="events-text19">
-          <span>Upcoming events</span>
+          <span>Upcoming/Ongoing events</span>
           <br></br>
         </h1>
         <span className="events-text22">---</span>
         <div className="events-container4">
           <GalleryCard3
-            title="Stay Tuned"
-            subtitle="Stay Tuned for updates. Something's on the way for sure!"
-            image_src="/playground_assets/stay%20tuned-1500h.png"
+            title="Hiring Interns!"
+            subtitle="visit bit.ly/internship-edcnssce"
+            image_src="/playground_assets/Intern1.jpeg"
+            rootClassName="rootClassName23"
+          ></GalleryCard3>
+          <GalleryCard3
+            title="Hiring Interns!"
+            subtitle="visit bit.ly/internship-edcnssce"
+            image_src="/playground_assets/Intern2.jpeg"
+            rootClassName="rootClassName23"
+          ></GalleryCard3>
+          <GalleryCard3
+            title="Hiring Interns!"
+            subtitle="visit bit.ly/internship-edcnssce"
+            image_src="/playground_assets/Intern3.jpeg"
+            rootClassName="rootClassName23"
+          ></GalleryCard3>
+          <GalleryCard3
+            title="Hiring Interns!"
+            subtitle="visit bit.ly/internship-edcnssce"
+            image_src="/playground_assets/Intern4.jpeg"
+            rootClassName="rootClassName23"
+          ></GalleryCard3>
+          <GalleryCard3
+            title="Hiring Interns!"
+            subtitle="visit bit.ly/internship-edcnssce"
+            image_src="/playground_assets/Intern5.jpeg"
+            rootClassName="rootClassName23"
+          ></GalleryCard3>
+          <GalleryCard3
+            title="Hiring Interns!"
+            subtitle="visit bit.ly/internship-edcnssce"
+            image_src="/playground_assets/Intern6.jpeg"
+            rootClassName="rootClassName23"
+          ></GalleryCard3>
+          <GalleryCard3
+            title="Hiring Interns!"
+            subtitle="visit bit.ly/internship-edcnssce"
+            image_src="/playground_assets/Intern7.jpeg"
             rootClassName="rootClassName23"
           ></GalleryCard3>
         </div>
