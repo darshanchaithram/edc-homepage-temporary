@@ -162,12 +162,16 @@ const Home = (props) => {
                     className="home-image1"
                   />
                   <span className="home-text16">
-                    <span>Ideate</span>
-                    <br></br>
-                    <span>Innovate</span>
-                    <br></br>
-                    <span>INVENT</span>
-                    <br></br>
+                  <h1>  
+                    <div class="scroller">
+                      <span>
+                        iEDC NSSCE<br/>
+                        Ideate<br/>
+                        Innovate<br/>
+                        Invent
+                      </span>
+                    </div>
+                  </h1>
                   </span>
                 </div>
                 <h1 className="home-text23 Heading-1">
@@ -308,6 +312,14 @@ const Home = (props) => {
             <span>Latest Activities</span>
             <br></br>
           </h1>
+      
+
+      
+          <div class="notice">
+            <h4 class="text_shadows">We're hiring</h4>
+          </div>
+
+
           <span className="home-text61">---</span>
           <div className="home-container7">
             <GalleryCard3
