@@ -165,7 +165,7 @@ const WebTeam = (props) => {
         </div>
         <a href='https://www.darshanchaithram.live' target="_blank" rel="noopener">
           <h2>Web team lead by:</h2>
-          <h1>Darshan S, ECE (2019-23)</h1>
+          <h1>Darshan S, ECE'23</h1>
           ✉️ hello@darshanchaithram.live
         </a>       
       </div>
