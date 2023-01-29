@@ -165,7 +165,9 @@ const Home = (props) => {
                   <h1>  
                     <div class="scroller">
                       <span>
-                        iEDC NSSCE<br/>
+                        Ideate<br/>
+                        Innovate<br/>
+                        Invent<br/>
                         Ideate<br/>
                         Innovate<br/>
                         Invent
