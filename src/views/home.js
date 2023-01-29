@@ -168,9 +168,7 @@ const Home = (props) => {
                         Ideate<br/>
                         Innovate<br/>
                         Invent<br/>
-                        Ideate<br/>
-                        Innovate<br/>
-                        Invent
+                        Startup!
                       </span>
                     </div>
                   </h1>
@@ -182,7 +180,7 @@ const Home = (props) => {
                 </h1>
                 <div className="home-btn-group">
                   <a
-                    href="https://innovate.startupmission.in/#/register"
+                    href="https://edcnssce.notion.site/Welcome-to-EDC-409d17639b914d2f85c8a2dd2214d90f"
                     target="_blank"
                     rel="noreferrer noopener"
                     className="home-button button"
@@ -317,9 +315,14 @@ const Home = (props) => {
       
 
       
-          <div class="notice">
-            <h4 class="text_shadows">We're hiring</h4>
-          </div>
+          <a href='https://edcnssce.notion.site/INTERNSHIPS-EDC-ab52314539364206b19ce84a3d4a8277' target="_blank" rel="noopener">
+            <button class="launch">
+              <span class="circle" aria-hidden="true">
+              <span class="icon arrow"></span>
+              </span>
+              <span class="button-text">🧑‍💻 HIRING</span>
+            </button>
+          </a>
 
 
           <span className="home-text61">---</span>
