@@ -163,7 +163,20 @@ const WebTeam = (props) => {
             className="web-team-image1"
           />
         </div>
+        <a href='https://www.darshanchaithram.live' target="_blank" rel="noopener">
+          <h2>Web team lead by:</h2>
+          <h1>Darshan S, ECE (2019-23)</h1>
+          ✉️ hello@darshanchaithram.live
+        </a>       
       </div>
+      <a href='https://www.darshanchaithram.live' target="_blank" rel="noopener">
+      <button class="launch">
+  <span class="circle" aria-hidden="true">
+  <span class="icon arrow"></span>
+  </span>
+  <span class="button-text">🚀 LAUNCH</span>
+</button>
+      </a>
       <Footer rootClassName="footer-root-class-name3"></Footer>
     </div>
   )
