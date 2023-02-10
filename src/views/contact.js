@@ -174,7 +174,7 @@ const Contact = (props) => {
             <br></br>
             <br></br>
             <span className="contact-text22">
-              For any other queries, email or call us at the above contact
+              For any other queries, email or call us at any of the above contact
               points.
             </span>
             <br></br>
