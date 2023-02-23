@@ -311,7 +311,7 @@ const Startups = (props) => {
         <BlogPostCard2
           Year="2016"
           logo="/playground_assets/matchbox-400h.jpg"
-          Domain="Media"
+          Domain="Cinema"
           Founder="Anirudh PK"
           Startup_Name="MATCHBOX MEDIA"
           rootClassName="blog-post-card2-root-class-name21"
