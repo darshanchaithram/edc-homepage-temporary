@@ -190,7 +190,7 @@ const Startups = (props) => {
           Year="2022"
           logo="/playground_assets/alila%20creations-400h.png"
           Domain="Biodegradable PCB"
-          Founder="founder"
+          Founder="Ajay A"
           Startup_Name="SKAVENGE"
           rootClassName="blog-post-card2-root-class-name2"
         ></BlogPostCard2>
@@ -207,7 +207,7 @@ const Startups = (props) => {
           Year="2020"
           logo="/playground_assets/gagan%20logo-400h.png"
           Domain="Student Satellite R&amp;D"
-          Founder="Gokul"
+          Founder="Gokul Krishna H"
           Startup_Name="GAGAN AEROSPACE"
           rootClassName="blog-post-card2-root-class-name12"
         ></BlogPostCard2>
@@ -304,6 +304,33 @@ const Startups = (props) => {
           Domain="Software"
           Founder="Athul R"
           Startup_Name="Karela"
+          rootClassName="blog-post-card2-root-class-name23"
+        ></BlogPostCard2>
+      </div>
+      <div className="startups-blog4">
+        <BlogPostCard2
+          Year="2016"
+          logo="/playground_assets/matchbox-400h.jpg"
+          Domain="Media"
+          Founder="Anirudh PK"
+          Startup_Name="MATCHBOX MEDIA"
+          rootClassName="blog-post-card2-root-class-name21"
+        ></BlogPostCard2>
+        <BlogPostCard2
+          Year="YEAR"
+          logo="/playground_assets/"
+          text2="x"
+          Domain=""
+          Founder=""
+          Startup_Name=""
+          rootClassName="blog-post-card2-root-class-name22"
+        ></BlogPostCard2>
+        <BlogPostCard2
+          logo="/playground_assets/"
+          text5=""
+          Domain=""
+          Founder=""
+          Startup_Name=""
           rootClassName="blog-post-card2-root-class-name23"
         ></BlogPostCard2>
       </div>
