@@ -5,6 +5,7 @@ import { Helmet } from 'react-helmet'
 
 import GalleryCard3 from '../components/gallery-card3'
 import Footer from '../components/footer'
+import Header from '../components/header.js'
 import './home.css'
 
 const Home = (props) => {
@@ -16,7 +17,7 @@ const Home = (props) => {
       </Helmet>
       <div className="home-navbar">
         
-
+    <Header />
 
         
       </div>

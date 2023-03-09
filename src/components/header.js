@@ -1,5 +1,11 @@
 
+import React from 'react'
+import { Link } from 'react-router-dom'
+import './header.css'
 
+export default function header()
+{
+  return(
 
 <header data-role="Header" className="home-header max-width-container">
           <div className="home-navbar1">
@@ -24,7 +30,7 @@
                 />
               </a>
               <div className="home-right">
-                <a href="#Events" className="home-text03 navbar-link">
+                <a href="/Events" className="home-text03 navbar-link">
                   EVENTS
                 </a>
                 <Link to="/subscription" className="home-text04 navbar-link">
@@ -135,3 +141,6 @@
             </div>
           </div>
         </header>
+
+  )
+}
