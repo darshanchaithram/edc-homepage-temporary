@@ -30,7 +30,7 @@ export default function header()
                 />
               </a>
               <div className="home-right">
-                <a href="/Events" className="home-text03 navbar-link">
+                <a href="/events" className="home-text03 navbar-link">
                   EVENTS
                 </a>
                 <Link to="/subscription" className="home-text04 navbar-link">
@@ -80,7 +80,7 @@ export default function header()
                 <Link to="/events" className="home-text13">
                   EVENTS
                 </Link>
-                <Link to="/" className="home-text14">
+                <Link to="/subscription" className="home-text14">
                   SUBSCRIBE
                 </Link>
                 <Link to="/contact" className="home-text15">
