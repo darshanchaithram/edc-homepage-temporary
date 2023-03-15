@@ -12,7 +12,7 @@ export default function header()
             <div className="home-container1"></div>
             <div className="home-middle">
               <div className="home-left">
-                <a href="#About" className="home-text navbar-link">
+                <a href="/#About" className="home-text navbar-link">
                   ABOUT
                 </a>
                 <Link to="/startups" className="home-text01 navbar-link">
