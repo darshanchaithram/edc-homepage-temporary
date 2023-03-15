@@ -199,9 +199,9 @@ const Home = (props) => {
           <span className="home-text61">---</span>
           <div className="home-container7">
             <GalleryCard3
-              title="Hiring Interns"
-              subtitle="visit bit.ly/internship-edcnssce"
-              image_src="/playground_assets/Intern1.jpeg"
+              title="Oru Palakkadan Charcha"
+              subtitle="tune @45"
+              image_src="/playground_assets/podcast.jpeg"
               rootClassName="rootClassName4"
             ></GalleryCard3>
             <GalleryCard3
