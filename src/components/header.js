@@ -22,7 +22,7 @@ export default function header()
                   OUR TEAM
                 </Link>
               </div>
-              <a href="#Landing" className="home-link">
+              <a href="/#Landing" className="home-link">
                 <img
                   alt="image"
                   src="/playground_assets/edc%20logo%5B2%5D-200h.png"
