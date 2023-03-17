@@ -12,7 +12,7 @@ export default function header()
             <div className="home-container1"></div>
             <div className="home-middle">
               <div className="home-left">
-                <a href="#About" className="home-text navbar-link">
+                <a href="/#About" className="home-text navbar-link">
                   ABOUT
                 </a>
                 <Link to="/startups" className="home-text01 navbar-link">
@@ -22,7 +22,7 @@ export default function header()
                   OUR TEAM
                 </Link>
               </div>
-              <a href="#Landing" className="home-link">
+              <a href="/#Landing" className="home-link">
                 <img
                   alt="image"
                   src="/playground_assets/edc%20logo%5B2%5D-200h.png"
@@ -30,7 +30,7 @@ export default function header()
                 />
               </a>
               <div className="home-right">
-                <a href="/Events" className="home-text03 navbar-link">
+                <a href="/events" className="home-text03 navbar-link">
                   EVENTS
                 </a>
                 <Link to="/subscription" className="home-text04 navbar-link">
@@ -80,7 +80,7 @@ export default function header()
                 <Link to="/events" className="home-text13">
                   EVENTS
                 </Link>
-                <Link to="/" className="home-text14">
+                <Link to="/subscription" className="home-text14">
                   SUBSCRIBE
                 </Link>
                 <Link to="/contact" className="home-text15">

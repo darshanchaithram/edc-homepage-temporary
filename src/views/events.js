@@ -33,6 +33,14 @@ const Events = (props) => {
         </h1>
         <span className="events-text22">---</span>
         <div className="events-container4">
+        <a href ='https://open.spotify.com/show/1bkacxiAEiU8CfHxfVbxjb' target="_blank" rel="noopener">
+          <GalleryCard3
+            title="Oru Palakkadan Charcha"
+            subtitle="Tune in @spotify"
+            image_src="/playground_assets/podcast.jpeg"
+            rootClassName="rootClassName23"
+          ></GalleryCard3>
+          </a>
           <GalleryCard3
             title="Hiring Interns!"
             subtitle="visit bit.ly/internship-edcnssce"

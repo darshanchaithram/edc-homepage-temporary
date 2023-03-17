@@ -198,12 +198,14 @@ const Home = (props) => {
 
           <span className="home-text61">---</span>
           <div className="home-container7">
+            <a href ='https://open.spotify.com/show/1bkacxiAEiU8CfHxfVbxjb' target="_blank" rel="noopener">
             <GalleryCard3
-              title="Hiring Interns"
-              subtitle="visit bit.ly/internship-edcnssce"
-              image_src="/playground_assets/Intern1.jpeg"
+              title="Oru Palakkadan Charcha"
+              subtitle="Tune in @spotify"
+              image_src="/playground_assets/podcast.jpeg"
               rootClassName="rootClassName4"
             ></GalleryCard3>
+            </a>
             <GalleryCard3
               title="Hiring Interns"
               subtitle="visit bit.ly/internship-edcnssce"
